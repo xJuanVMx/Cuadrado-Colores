@@ -2,10 +2,14 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { CuadradoComponent } from './components/cuadrado/cuadrado.component';
+import { BotonComponent } from './components/boton/boton.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CuadradoComponent,
+    BotonComponent
   ],
   imports: [
     BrowserModule
