@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'cuadroColor';
+ colorActual: string = 'white';
+nombreColor: string = 'Blanco';
+
+cambiarColor(color: string) {
+  this.colorActual = color;
+}
 }
